@@ -73,21 +73,21 @@ export default function WhatsAppWidget() {
         onClick={() => setIsOpen(!isOpen)}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.95 }}
-        className={`relative p-5 rounded-full shadow-strong transition-all duration-500 overflow-hidden ${
+        className={`relative p-7 rounded-full shadow-strong transition-all duration-500 overflow-hidden ${
           isOpen ? "bg-white text-primary border border-accent/20" : "bg-whatsapp text-white"
         }`}
       >
         <AnimatePresence mode="wait">
           {isOpen ? (
             <motion.div key="close" initial={{ rotate: -90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: 90, opacity: 0 }}>
-              <X size={32} />
+              <X size={40} />
             </motion.div>
           ) : (
             <motion.div key="whatsapp" initial={{ rotate: 90, opacity: 0 }} animate={{ rotate: 0, opacity: 1 }} exit={{ rotate: -90, opacity: 0 }}>
               <div className="relative">
-                <MessageCircle size={32} />
-                <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-whatsapp animate-ping"></span>
-                <span className="absolute -top-1 -right-1 w-3 h-3 bg-red-500 rounded-full border-2 border-whatsapp"></span>
+                <MessageCircle size={40} />
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-whatsapp animate-ping"></span>
+                <span className="absolute -top-1 -right-1 w-4 h-4 bg-red-500 rounded-full border-2 border-whatsapp"></span>
               </div>
             </motion.div>
           )}
