@@ -81,6 +81,15 @@ ul {
   padding: 0 20px;
 }
 
+.section-padding {
+  padding-top: clamp(80px, 15vh, 160px);
+  padding-bottom: clamp(80px, 15vh, 160px);
+}
+
+.section-title-margin {
+  margin-bottom: clamp(40px, 8vh, 80px);
+}
+
 /* Glassmorphism Utility */
 .glass {
   background: var(--glass-bg);

@@ -6,7 +6,7 @@ import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-24 bg-bg-light">
+    <section id="contact" className="section-padding bg-bg-light">
       <div className="container">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
           <motion.div 
@@ -15,7 +15,7 @@ export default function Contact() {
             viewport={{ once: true }}
           >
             <h2 className="text-4xl font-black mb-8">نحن بانتظارك</h2>
-            <p className="text-lg text-text-muted mb-12">
+            <p className="text-lg text-text-muted mb-16">
               تفضل بزيارة معرضنا في الرياض لاستكشاف مئات النماذج والكتالوجات الحصرية، أو تواصل معنا مباشرة للحصول على تسعيرة فورية.
             </p>
             

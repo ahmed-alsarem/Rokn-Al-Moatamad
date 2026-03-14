@@ -32,9 +32,9 @@ const services = [
 
 export default function Services() {
   return (
-    <section id="services" className="py-24 bg-bg-light">
+    <section id="services" className="py-0">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center section-title-margin">
           <motion.h2 
             initial={{ opacity: 0, y: 20 }}
             whileInView={{ opacity: 1, y: 0 }}

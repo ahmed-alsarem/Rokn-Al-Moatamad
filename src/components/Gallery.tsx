@@ -13,9 +13,9 @@ const images = [
 
 export default function Gallery() {
   return (
-    <section id="gallery" className="py-24">
+    <section id="gallery" className="py-0">
       <div className="container">
-        <div className="text-center mb-16">
+        <div className="text-center section-title-margin">
           <h2 className="text-4xl font-black mb-4">معرض الفخامة</h2>
           <div className="w-20 h-1 bg-secondary mx-auto mb-6"></div>
           <p className="text-text-muted">نستعرض لكم نخبة من أعمالنا ومنتجاتنا الأكثر طلباً</p>
