@@ -3,12 +3,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  { src: "/images/carpet_texture.png", title: "موكيت مودرن فاخر" },
-  { src: "/images/IMG_2264.png", title: "موكيت صالات ومكاتب" },
-  { src: "/images/IMG_2354.PNG", title: "تركيبات ستائر ذكية" },
-  { src: "/images/main_hero.png", title: "معرض الموكيت الرئيسي" },
-  { src: "/images/curtains_living_room.png", title: "ستائر مجالس فخمة" },
-  { src: "/images/IMG_2263.PNG", title: "تفصيل حسب الطلب" }
+  { src: "/images/carpet_texture.png", title: "موكيت مودرن فاخر - ركن المعتمد الرياض" },
+  { src: "/images/IMG_2264.png", title: "تركيب موكيت صالات ومكاتب بالرياض" },
+  { src: "/images/IMG_2354.PNG", title: "تفصيل ستائر ذكية ومودرن الرياض" },
+  { src: "/images/main_hero.png", title: "معرض ركن المعتمد الرئيسي للموكيت والستائر" },
+  { src: "/images/curtains_living_room.png", title: "ستائر مجالس فخمة - تصميم وتفصيل" },
+  { src: "/images/IMG_2263.PNG", title: "تفصيل سجاد وموكيت حسب الطلب" }
 ];
 
 export default function Gallery() {
