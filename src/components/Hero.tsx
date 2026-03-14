@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { trackGoogleConversion } from "./GoogleAnalytics";
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, MapPin } from "lucide-react";
 
@@ -38,6 +39,7 @@ export default function Hero() {
               whileTap={{ scale: 0.95 }}
               href="tel:+966550171735" 
               className="btn btn-primary"
+              onClick={trackGoogleConversion}
             >
               <Phone size={20} />
               <span>اتصل بنا الآن</span>
@@ -49,6 +51,7 @@ export default function Hero() {
               href="https://wa.me/966550171735?text=استفسار%20عن%20السجاد%20والموكيت" 
               target="_blank"
               className="btn btn-whatsapp"
+              onClick={trackGoogleConversion}
             >
               <MessageCircle size={20} />
               <span>تواصل واتساب</span>

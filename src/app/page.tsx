@@ -5,6 +5,7 @@ import Gallery from "@/components/Gallery";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import { MessageCircle } from "lucide-react";
+import { trackGoogleConversion } from "@/components/GoogleAnalytics";
 
 export default function Home() {
   return (
@@ -46,7 +47,11 @@ export default function Home() {
               <span className="font-bold">خدمة 24/7</span>
             </div>
           </div>
-          <a href="tel:+966550171735" className="btn btn-primary text-lg px-10">
+          <a 
+            href="tel:+966550171735" 
+            className="btn btn-primary text-lg px-10"
+            onClick={trackGoogleConversion}
+          >
             <span>تواصل معنا الآن</span>
           </a>
         </div>
@@ -62,6 +67,7 @@ export default function Home() {
         href="https://wa.me/966550171735?text=استفسار%20عن%20الموكيت%20والستائر" 
         className="fixed bottom-8 left-8 p-5 bg-whatsapp text-white rounded-full shadow-strong z-[100] hover:scale-110 active:scale-95 transition-all duration-300 animate-bounce group"
         target="_blank"
+        onClick={trackGoogleConversion}
       >
         <MessageCircle size={32} />
         <span className="absolute right-full ml-4 bg-white text-text-main px-4 py-2 rounded-xl text-sm font-bold shadow-md opacity-0 group-hover:opacity-100 transition-opacity whitespace-nowrap pointer-events-none">

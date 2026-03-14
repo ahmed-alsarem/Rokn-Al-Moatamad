@@ -3,6 +3,8 @@ import React, { useState, useEffect } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { Menu, X, Store } from "lucide-react";
 
+import { trackGoogleConversion } from "./GoogleAnalytics";
+
 const navLinks = [
   { name: "الرئيسية", href: "#home" },
   { name: "من نحن", href: "#about" },
@@ -41,7 +43,11 @@ export default function Navbar() {
               {link.name}
             </a>
           ))}
-          <a href="tel:+966550171735" className="btn btn-primary px-6 py-2 text-sm whitespace-nowrap">
+          <a 
+            href="tel:+966550171735" 
+            className="btn btn-primary px-6 py-2 text-sm whitespace-nowrap"
+            onClick={trackGoogleConversion}
+          >
             اتصل الآن
           </a>
         </div>
@@ -74,7 +80,11 @@ export default function Navbar() {
                 {link.name}
               </a>
             ))}
-            <a href="tel:+966550171735" className="btn btn-primary w-[80%] justify-center">
+            <a 
+              href="tel:+966550171735" 
+              className="btn btn-primary w-[80%] justify-center"
+              onClick={trackGoogleConversion}
+            >
               اتصل الآن
             </a>
           </motion.div>

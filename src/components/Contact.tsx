@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { trackGoogleConversion } from "./GoogleAnalytics";
 import { motion } from "framer-motion";
 import { Phone, MessageCircle, MapPin, Mail } from "lucide-react";
 
@@ -25,7 +26,14 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-500 mb-1">اتصل بنا</h4>
-                  <a href="tel:+966550171735" className="text-xl font-black text-primary" dir="ltr">+966 55 017 1735</a>
+                  <a 
+                    href="tel:+966550171735" 
+                    className="text-xl font-black text-primary" 
+                    dir="ltr"
+                    onClick={trackGoogleConversion}
+                  >
+                    +966 55 017 1735
+                  </a>
                 </div>
               </div>
 
@@ -35,7 +43,15 @@ export default function Contact() {
                 </div>
                 <div>
                   <h4 className="font-bold text-gray-500 mb-1">راسلنا واتساب</h4>
-                  <a href="https://wa.me/966550171735?text=استفسار%20عن%20السجاد%20والموكيت" target="_blank" className="text-xl font-black text-whatsapp" dir="ltr">+966 55 017 1735</a>
+                  <a 
+                    href="https://wa.me/966550171735?text=استفسار%20عن%20السجاد%20والموكيت" 
+                    target="_blank" 
+                    className="text-xl font-black text-whatsapp" 
+                    dir="ltr"
+                    onClick={trackGoogleConversion}
+                  >
+                    +966 55 017 1735
+                  </a>
                 </div>
               </div>
 

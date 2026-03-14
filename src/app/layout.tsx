@@ -7,6 +7,9 @@ export const metadata: Metadata = {
   keywords: ["سجاد الرياض", "موكيت الرياض", "سجاد قريب مني", "موكيت للمنازل", "تركيب موكيت"],
 };
 
+import { Suspense } from "react";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
+
 export default function RootLayout({
   children,
 }: {
@@ -20,6 +23,9 @@ export default function RootLayout({
         <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@300;400;500;700;800;900&display=swap" rel="stylesheet" />
       </head>
       <body>
+        <Suspense fallback={null}>
+          <GoogleAnalytics />
+        </Suspense>
         {children}
       </body>
     </html>
