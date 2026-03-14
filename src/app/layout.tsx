@@ -35,6 +35,8 @@ export const metadata: Metadata = {
     title: "ركن المعتمد للموكيت والستائر",
     description: "أفضل محل موكيت وستائر بالرياض بضمان وجودة عالية.",
     images: ["/images/main_hero.png"],
+  verification: {
+    google: "googled2bf9f875b7d1269",
   },
 };
 
