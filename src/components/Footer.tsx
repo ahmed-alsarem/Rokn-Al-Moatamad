@@ -12,7 +12,7 @@ export default function Footer() {
               <img src="/images/logo.PNG" alt="ركن المعتمد" className="h-24 w-auto brightness-0 invert" />
             </div>
             <p className="text-white/70 text-lg leading-relaxed">
-              وجهتكم الأولى في الرياض لأفخم أنواع السجاد والموكيت. جودة نعتز بها وخدمة تفوق التوقعات.
+              وجهتكم الأولى في الرياض لأفخم أنواع الموكيت والستائر. جودة نعتز بها وخدمة تفوق التوقعات.
             </p>
           </div>
           

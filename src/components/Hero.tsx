@@ -10,7 +10,7 @@ export default function Hero() {
       <div 
         className="absolute inset-0 z-0 bg-cover bg-center transition-transform duration-[10s] ease-linear hover:scale-110"
         style={{ 
-          backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/hero_showroom.png')" 
+          backgroundImage: "linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('/images/main_hero.png')" 
         }}
       />
       
@@ -26,10 +26,10 @@ export default function Hero() {
           </span>
           <h1 className="text-5xl md:text-7xl mb-6 text-white leading-tight">
             ركن المعتمد <br />
-            <span className="text-secondary">للموكيت والسجاد</span> بالرياض
+            <span className="text-secondary">للموكيت والستائر</span> بالرياض
           </h1>
           <p className="text-xl md:text-2xl mb-10 text-gray-200 leading-relaxed opacity-90">
-            نجمع لك بين الجمال والجودة، أفضل التشكيلات للمنازل، القصور، الفنادق والمساجد بأيادي مختصة.
+            نجمع لك بين الفخامة والجودة، أفضل تشكيلات الموكيت والستائر للمنازل، القصور، والمكاتب بأرقى الموديلات.
           </p>
           
           <div className="flex flex-wrap gap-4">

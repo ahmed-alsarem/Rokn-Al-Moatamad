@@ -1,31 +1,31 @@
 "use client";
 import React from "react";
 import { motion } from "framer-motion";
-import { ShoppingBag, Scissors, Hammer, Building2 } from "lucide-react";
+import { ShoppingBag, Scissors, Hammer, Building2, Grid3X3, Layout } from "lucide-react";
 
 const services = [
   {
-    title: "بيع سجاد فاخر",
-    desc: "أرقى التشكيلات من السجاد التركي، الإيراني، والمحلي بتصاميم عصرية وكلاسيكية.",
-    icon: <ShoppingBag size={40} />,
+    icon: <Scissors className="w-8 h-8" />,
+    title: "تفصيل ستائر فاخرة",
+    description: "نقدم أحدث موديلات الستائر التركية والأوروبية مع تفصيل احترافي يناسب ديكور منزلك.",
     delay: 0.1
   },
   {
-    title: "تفصيل موكيت حسب المقاس",
-    desc: "خدمة تفصيل الموكيت بدقة عالية ليتناسب مع كافة المساحات والغرف بكل احترافية.",
-    icon: <Scissors size={40} />,
+    icon: <Grid3X3 className="w-8 h-8" />,
+    title: "موكيت بكافة الأنواع",
+    description: "تشكيلة واسعة من الموكيت البلجيكي، الأمريكي والوطني بأفضل الأسعار وأعلى جودة تركيز.",
     delay: 0.2
   },
   {
-    title: "تركيب موكيت للفنادق والقصور",
-    desc: "فريق متخصص لتركيب الموكيت باحترافية وسرعة مع ضمان أعلى معايير الجودة.",
-    icon: <Hammer size={40} />,
+    icon: <Layout className="w-8 h-8" />,
+    title: "تركيب احترافي",
+    description: "فريق متخصص لتركيب الموكيت والستائر لضمان مظهر نهائي مثالي يدوم طويلاً.",
     delay: 0.3
   },
   {
-    title: "سجاد وموكيت المساجد",
-    desc: "سجاد خاص للمساجد بمواصفات عالية التحمل وأسعار خاصة لدور العبادة.",
     icon: <Building2 size={40} />,
+    title: "موكيت وستائر للمشاريع",
+    description: "حلول متكاملة للموكيت والستائر للمساجد والفنادق والقصور بمواصفات عالية وأسعار خاصة.",
     delay: 0.4
   }
 ];

@@ -17,8 +17,8 @@ export default function Home() {
         <div className="relative">
           <div className="absolute -top-6 -right-6 w-48 h-48 bg-accent opacity-20 rounded-full blur-3xl z-0"></div>
           <img 
-            src="/images/about_living_room.png" 
-            alt="About us" 
+            src="/images/curtains_living_room.png" 
+            alt="Showroom" 
             className="rounded-[2.5rem] shadow-strong relative z-10 w-full object-cover aspect-[4/3]"
           />
         </div>
@@ -26,7 +26,7 @@ export default function Home() {
           <span className="text-secondary font-black tracking-widest uppercase mb-4 block">قصة ركن المعتمد</span>
           <h2 className="text-4xl md:text-5xl font-black mb-8">فنون الموكيت <br /><span className="text-secondary underline decoration-8 underline-offset-12">تبدأ من هنا</span></h2>
           <p className="text-xl text-text-muted mb-8 leading-relaxed">
-            في <strong>ركن المعتمد</strong>، نؤمن أن السجاد ليس مجرد قطعة أثاث، بل هو روح المكان التي تمنحه الدفء والجمالية. نحن متخصصون في توريد وتفصيل أفخم أنواع الموكيت والسجاد الذي يجمع بين أصالة الماضي وحداثة المستقبل.
+            في <strong>ركن المعتمد</strong>، نؤمن أن تفاصيل المكان تبدأ من الأرضية وتنتهي بإطار النوافذ. نحن متخصصون في توريد وتركيب أفخم أنواع <strong>الموكيت والستائر</strong> التي تمنح منزلك أو مكتبك خصوصية وفخامة لا مثيل لها.
           </p>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mb-12">
             <div className="flex items-center gap-3 bg-bg-light p-4 rounded-2xl border border-accent/10">
@@ -59,7 +59,7 @@ export default function Home() {
 
       {/* Premium Floating WhatsApp CTA */}
       <a 
-        href="https://wa.me/966550171735?text=استفسار%20عن%20السجاد%20والموكيت" 
+        href="https://wa.me/966550171735?text=استفسار%20عن%20الموكيت%20والستائر" 
         className="fixed bottom-8 left-8 p-5 bg-whatsapp text-white rounded-full shadow-strong z-[100] hover:scale-110 active:scale-95 transition-all duration-300 animate-bounce group"
         target="_blank"
       >

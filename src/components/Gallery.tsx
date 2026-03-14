@@ -3,12 +3,12 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const images = [
-  { src: "/images/carpet_texture.png", title: "سجاد زخارف إسلامية" },
-  { src: "/images/IMG_2264.png", title: "موكيت مودرن" },
-  { src: "/images/IMG_2354.PNG", title: "تركيبات مكاتب" },
-  { src: "/images/hero_showroom.png", title: "صالة العرض الرئيسية" },
-  { src: "/images/about_living_room.png", title: "تصاميم قصور" },
-  { src: "/images/luxury_carpet_showroom_2_1773440352718.png", title: "تشكيلات حصرية" }
+  { src: "/images/carpet_texture.png", title: "موكيت مودرن فاخر" },
+  { src: "/images/IMG_2264.png", title: "موكيت صالات ومكاتب" },
+  { src: "/images/IMG_2354.PNG", title: "تركيبات ستائر ذكية" },
+  { src: "/images/main_hero.png", title: "معرض الموكيت الرئيسي" },
+  { src: "/images/curtains_living_room.png", title: "ستائر مجالس فخمة" },
+  { src: "/images/IMG_2263.PNG", title: "تفصيل حسب الطلب" }
 ];
 
 export default function Gallery() {
