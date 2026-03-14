@@ -64,7 +64,7 @@ export default function Services() {
                 {s.icon}
               </div>
               <h3 className="text-xl font-bold mb-4">{s.title}</h3>
-              <p className="text-text-muted">{s.desc}</p>
+              <p className="text-text-muted">{s.description}</p>
             </motion.div>
           ))}
         </div>
