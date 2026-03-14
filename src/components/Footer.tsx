@@ -23,6 +23,7 @@ export default function Footer() {
               <li><a href="#about" className="hover:text-secondary">من نحن</a></li>
               <li><a href="#gallery" className="hover:text-secondary">معرض الصور</a></li>
               <li><a href="#contact" className="hover:text-secondary">اتصل بنا</a></li>
+              <li><a href="/privacy-policy" className="hover:text-secondary">سياسة الخصوصية</a></li>
             </ul>
           </div>
 
